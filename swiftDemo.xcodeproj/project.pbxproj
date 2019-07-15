@@ -18,6 +18,16 @@
 		764EDA8A223BAD8600DE3DDB /* YHFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764EDA89223BAD8600DE3DDB /* YHFirstViewController.swift */; };
 		764EDA8C223BAD9300DE3DDB /* YHSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764EDA8B223BAD9300DE3DDB /* YHSecondViewController.swift */; };
 		764EDA8E223BADA200DE3DDB /* YHThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764EDA8D223BADA200DE3DDB /* YHThirdViewController.swift */; };
+		7655A29A22DC0B1B00E368D7 /* DMAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7655A29922DC0B1B00E368D7 /* DMAPI.swift */; };
+		7655A29C22DC0B5A00E368D7 /* DMModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7655A29B22DC0B5A00E368D7 /* DMModel.swift */; };
+		76E7E95122D71E500026AF72 /* YHFirstDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E7E95022D71E500026AF72 /* YHFirstDetailController.swift */; };
+		76E7E95422D7255F0026AF72 /* NetworkTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E7E95322D7255F0026AF72 /* NetworkTools.swift */; };
+		76E7E95622D743080026AF72 /* YHRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E7E95522D743080026AF72 /* YHRequest.swift */; };
+		76E7E95822D7434F0026AF72 /* MoyaConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E7E95722D7434F0026AF72 /* MoyaConfig.swift */; };
+		76E7E95A22D743DD0026AF72 /* HttpRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E7E95922D743DD0026AF72 /* HttpRequest.swift */; };
+		76E7E95C22D744300026AF72 /* TStrInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E7E95B22D744300026AF72 /* TStrInt.swift */; };
+		76E7E95E22D744630026AF72 /* TSaveFiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E7E95D22D744630026AF72 /* TSaveFiles.swift */; };
+		76E7E96022D744E40026AF72 /* THUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E7E95F22D744E40026AF72 /* THUD.swift */; };
 		76FF1039222F7718000B6DA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FF1038222F7718000B6DA5 /* AppDelegate.swift */; };
 		76FF103B222F7718000B6DA5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FF103A222F7718000B6DA5 /* ViewController.swift */; };
 		76FF103E222F7718000B6DA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76FF103C222F7718000B6DA5 /* Main.storyboard */; };
@@ -59,6 +69,16 @@
 		764EDA89223BAD8600DE3DDB /* YHFirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YHFirstViewController.swift; sourceTree = "<group>"; };
 		764EDA8B223BAD9300DE3DDB /* YHSecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YHSecondViewController.swift; sourceTree = "<group>"; };
 		764EDA8D223BADA200DE3DDB /* YHThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YHThirdViewController.swift; sourceTree = "<group>"; };
+		7655A29922DC0B1B00E368D7 /* DMAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DMAPI.swift; sourceTree = "<group>"; };
+		7655A29B22DC0B5A00E368D7 /* DMModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DMModel.swift; sourceTree = "<group>"; };
+		76E7E95022D71E500026AF72 /* YHFirstDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YHFirstDetailController.swift; sourceTree = "<group>"; };
+		76E7E95322D7255F0026AF72 /* NetworkTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkTools.swift; sourceTree = "<group>"; };
+		76E7E95522D743080026AF72 /* YHRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YHRequest.swift; sourceTree = "<group>"; };
+		76E7E95722D7434F0026AF72 /* MoyaConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyaConfig.swift; sourceTree = "<group>"; };
+		76E7E95922D743DD0026AF72 /* HttpRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpRequest.swift; sourceTree = "<group>"; };
+		76E7E95B22D744300026AF72 /* TStrInt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TStrInt.swift; sourceTree = "<group>"; };
+		76E7E95D22D744630026AF72 /* TSaveFiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSaveFiles.swift; sourceTree = "<group>"; };
+		76E7E95F22D744E40026AF72 /* THUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = THUD.swift; sourceTree = "<group>"; };
 		76FF1035222F7718000B6DA5 /* swiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76FF1038222F7718000B6DA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		76FF103A222F7718000B6DA5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -104,6 +124,7 @@
 		764EDA72223BA87700DE3DDB /* ServiceModule */ = {
 			isa = PBXGroup;
 			children = (
+				76E7E95222D725320026AF72 /* network */,
 				764EDA84223BAD6400DE3DDB /* thirdModule */,
 				764EDA7F223BAD4500DE3DDB /* secondModule */,
 				764EDA7A223BAD3700DE3DDB /* firstModule */,
@@ -174,6 +195,7 @@
 			isa = PBXGroup;
 			children = (
 				764EDA89223BAD8600DE3DDB /* YHFirstViewController.swift */,
+				76E7E95022D71E500026AF72 /* YHFirstDetailController.swift */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -273,6 +295,22 @@
 			children = (
 			);
 			path = view;
+			sourceTree = "<group>";
+		};
+		76E7E95222D725320026AF72 /* network */ = {
+			isa = PBXGroup;
+			children = (
+				76E7E95322D7255F0026AF72 /* NetworkTools.swift */,
+				76E7E95522D743080026AF72 /* YHRequest.swift */,
+				76E7E95722D7434F0026AF72 /* MoyaConfig.swift */,
+				76E7E95922D743DD0026AF72 /* HttpRequest.swift */,
+				76E7E95B22D744300026AF72 /* TStrInt.swift */,
+				76E7E95D22D744630026AF72 /* TSaveFiles.swift */,
+				76E7E95F22D744E40026AF72 /* THUD.swift */,
+				7655A29922DC0B1B00E368D7 /* DMAPI.swift */,
+				7655A29B22DC0B5A00E368D7 /* DMModel.swift */,
+			);
+			path = network;
 			sourceTree = "<group>";
 		};
 		76FF102C222F7718000B6DA5 = {
@@ -593,10 +631,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76E7E95422D7255F0026AF72 /* NetworkTools.swift in Sources */,
+				76E7E95122D71E500026AF72 /* YHFirstDetailController.swift in Sources */,
 				76FF103B222F7718000B6DA5 /* ViewController.swift in Sources */,
 				764EDA8E223BADA200DE3DDB /* YHThirdViewController.swift in Sources */,
+				7655A29A22DC0B1B00E368D7 /* DMAPI.swift in Sources */,
 				7612F405223F94AE00C3E14C /* ImageCell.swift in Sources */,
 				764EDA8C223BAD9300DE3DDB /* YHSecondViewController.swift in Sources */,
+				76E7E95622D743080026AF72 /* YHRequest.swift in Sources */,
+				7655A29C22DC0B5A00E368D7 /* DMModel.swift in Sources */,
+				76E7E95822D7434F0026AF72 /* MoyaConfig.swift in Sources */,
 				7612F3FE223F784F00C3E14C /* UIHelper.swift in Sources */,
 				764EDA79223BAA9900DE3DDB /* YHBaseTabBarViewController.swift in Sources */,
 				764EDA8A223BAD8600DE3DDB /* YHFirstViewController.swift in Sources */,
@@ -604,6 +648,10 @@
 				7612F400223F7F3D00C3E14C /* Extensions.swift in Sources */,
 				7612F3F6223F4A1700C3E14C /* Row.swift in Sources */,
 				7612F406223F94AE00C3E14C /* ImageTextCell.swift in Sources */,
+				76E7E95A22D743DD0026AF72 /* HttpRequest.swift in Sources */,
+				76E7E95E22D744630026AF72 /* TSaveFiles.swift in Sources */,
+				76E7E95C22D744300026AF72 /* TStrInt.swift in Sources */,
+				76E7E96022D744E40026AF72 /* THUD.swift in Sources */,
 				76FF1039222F7718000B6DA5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -788,7 +836,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "yinghu-colin.swiftDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -808,7 +856,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "yinghu-colin.swiftDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

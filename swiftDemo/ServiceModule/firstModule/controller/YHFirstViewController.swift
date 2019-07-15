@@ -8,15 +8,17 @@
 
 import UIKit
 import GameplayKit
+//import YHFirstDetailController
 
-class YHFirstViewController: UIViewController {
+class YHFirstViewController: UIViewController,UITableViewDelegate {
     
     let viewModel = ListViewModel()
     
     private lazy var tableView: UITableView = {
         let tableView = UITableView()
         tableView.dataSource = viewModel
-        tableView.rowHeight = UITableViewAutomaticDimension
+        tableView.delegate = self
+        tableView.rowHeight = UITableView.automaticDimension
         tableView.estimatedRowHeight = 44
         return tableView
     }()
@@ -47,6 +49,7 @@ class YHFirstViewController: UIViewController {
         }
     }
     
+    
     func generateTwoImageRow() -> Row<TwoImageCell> {
         let row = Row<TwoImageCell>(viewData: NoneItem())
         return row
@@ -68,6 +71,10 @@ class YHFirstViewController: UIViewController {
         tableView.frame = view.bounds
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let detailVC = YHFirstDetailController()
+        self.navigationController!.pushViewController(detailVC, animated:true)
+    }
 
     /*
     // MARK: - Navigation
@@ -99,6 +106,7 @@ class ListViewModel: NSObject, UITableViewDataSource {
         return cell
         
     }
+    
     
     
 }

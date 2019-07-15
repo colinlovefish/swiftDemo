@@ -29,9 +29,10 @@ class ImageTextCell: UITableViewCell {
         return contentLabel
     }()
     
-    override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
+    override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         contentView.addSubview(firstImageView)
+        
         firstImageView.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: 15).isActive = true
         firstImageView.widthAnchor.constraint(equalTo: firstImageView.heightAnchor).isActive = true
         firstImageView.topAnchor.constraint(equalTo: contentView.topAnchor, constant: 10).isActive = true

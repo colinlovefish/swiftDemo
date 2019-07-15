@@ -40,6 +40,7 @@ pod 'RxSwift', '~> 4.2.0'
   pod 'MGJRouter', '~>0.9.0'
   pod 'YYKit', '~> 1.0.9'
 
+  pod 'Charts'
 
 end
 
